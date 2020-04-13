@@ -1,10 +1,22 @@
 price = input("How much do you pay? ")
 price = float(price)
 
-if price >= 1.00 :
+if price >= 10000 :
     tax = .07
 else:
     tax = .01
 tax = tax * price
 price = price + tax
+
+province = input("Where do you live in? " )
+
+if province.lower() == "banten" :
+    price = price - 1000
+if province.lower() == "jakarta" :
+    price = price - 500
+if province.lower() == "jabar" :
+    price = price - 100
+else :
+    price = price - 1
+
 print(f"How much should you pay = {price}")
