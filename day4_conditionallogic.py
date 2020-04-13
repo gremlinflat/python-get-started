@@ -12,9 +12,9 @@ province = input("Where do you live in? " )
 
 if province.lower() == "banten" :
     price = price - 1000
-if province.lower() == "jakarta" :
+elif province.lower() == "jakarta" :
     price = price - 500
-if province.lower() == "jabar" :
+elif province.lower() == "jabar" :
     price = price - 100
 else :
     price = price - 1
