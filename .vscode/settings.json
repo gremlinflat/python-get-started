@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\Gremlin\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe"
+    "python.pythonPath": "d:\\Programming\\python-getting-started-journal\\day7\\Scripts\\python.exe",
+    "python.linting.enabled": true
 }
