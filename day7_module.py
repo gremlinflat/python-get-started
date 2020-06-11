@@ -1,6 +1,6 @@
 import day7_modulefile 
 
-day7_modulefile.errormessage("ayy")
+day7_modulefile.errormessage("not warning")
 
 
 
